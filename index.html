@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/index.css">
     <title>AI poems</title>
 </head>
@@ -10,9 +11,15 @@
     <h1>Welcome to AI poem generator</h1>
 
     <form>
-        <input placeholder="Please search a poem..." id="search-poem" type="text"/>
-        <input type="submit" />
+        <input class="search"   placeholder="Please search a poem..." id="search-poem" type="text"/>
+        <input class="submit" type="submit" />
+        <p class="examples">eg: Love, Life, Nature...</p>
     </form>
+    
+    <main>
+        <p id="poem"></p>
+    </main>
+
 
     This AI project was coded by
     <a
