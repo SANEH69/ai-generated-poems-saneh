@@ -9,7 +9,7 @@ h1 {
 }
 form {
     background-color: white;
-    padding: 30px;
+    padding: 20px;
     margin: 0px 450px;
     border-radius: 10px;
     opacity: 80%;
@@ -20,7 +20,7 @@ input:hover {
 .search {
     padding: 10px 100px;
     border-radius: 10px;
-    border: 1px solid #EEC3B0;
+    border: 2px solid #EEC3B0;
 }
 .submit {
     padding: 10px 20px;
@@ -31,6 +31,14 @@ input:hover {
 .examples {
     font-size: 10px;
     font-weight: bolder;
-    color: #9ABEAA;
+    color: #EEC3B0;
     text-align: center;
+}
+main {
+    background-color: white;
+    padding: 10px;
+    margin: 20px 450px;
+    border-radius: 10px;
+    opacity: 80%;
+    border-top: 5px solid #EEC3B0;
 }

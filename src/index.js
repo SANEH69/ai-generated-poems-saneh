@@ -20,3 +20,6 @@ function getPoem(event) {
 
     axios.get(apiURL).then(displayPoem);
 }
+
+let inputElement = document.querySelector(".poem-search");
+inputElement.addEventListener("submit", getPoem);
