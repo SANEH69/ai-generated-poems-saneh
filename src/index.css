@@ -1,5 +1,5 @@
 body {
-    background: radial-gradient(circle at 3.9% 11.3%, rgb(237, 120, 153) 0%, rgb(238, 216, 190) 71.6%, rgb(249, 238, 221) 99.8%);
+    background: linear-gradient(to right, rgb(238, 156, 167), rgb(255, 221, 225));
     text-align: center;
     font-family: cursive;
 }
@@ -9,10 +9,11 @@ h1 {
 }
 form {
     background-color: white;
-    padding: 20px;
+    padding: 10px;
     margin: 0px 450px;
     border-radius: 10px;
     opacity: 80%;
+    border-top: 5px solid #000000;
 }
 input:hover {
     cursor: pointer;
@@ -40,5 +41,5 @@ main {
     margin: 20px 450px;
     border-radius: 10px;
     opacity: 80%;
-    border-top: 5px solid #EEC3B0;
+    border-top: 5px solid #000000;
 }
