@@ -7,13 +7,14 @@ h1 {
     margin-top: 100px;
     font-size: 50px;
 }
-form {
+.container {
     background-color: white;
     padding: 10px;
     margin: 0px 450px;
     border-radius: 10px;
     opacity: 80%;
     border-top: 5px solid #000000;
+    max-width: 1200px;
 }
 input:hover {
     cursor: pointer;
@@ -51,4 +52,17 @@ a {
 }
 footer {
     margin-top: 200px;
+}
+@media (max-width: 1300px) {
+    .container, main, body {
+        max-width: 100%;
+        margin: 20px 30px;
+    }
+    .search, .submit {
+        padding: 2px;
+        margin: 0px;
+    }
+    body {
+        text-align: start;
+    }
 }
